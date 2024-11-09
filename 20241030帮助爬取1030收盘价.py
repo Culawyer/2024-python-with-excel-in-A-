@@ -1,3 +1,8 @@
+# 结合tushare 我想导出全部a股当日收盘价
+# 确保你已经安装了 tushare 和 pandas 库。
+# 获取当日的收盘价数据。
+# 将数据导出到Excel
+
 import tushare as ts
 import pandas as pd
 
