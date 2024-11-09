@@ -1,3 +1,7 @@
+# 结合tushare爬取全部a股所属概念
+# 需注意在Excel中导入以000开头的股票代码时，Excel会将其视为数字格式并自动去掉前导零的问题。
+# 解决方式添加代码 today_data['ts_code'] = today_data['ts_code'].astype(str)  # 确保股票代码为字符串格式
+today_data.to_excel(output_path, index=False)
 import pandas as pd
 
 # 文件路径
