@@ -2,7 +2,7 @@ import tushare as ts
 import pandas as pd
 
 # 设置 Tushare Token
-ts.set_token('c2c9a9f0b04de25d869b9bcbcb45764b1d7264f981a6ae4df14b0302')
+ts.set_token('c**********************e************02')
 pro = ts.pro_api()
 
 # 获取所有概念列表
