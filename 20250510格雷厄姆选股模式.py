@@ -3,7 +3,7 @@ import pandas as pd
 import datetime
 
 # 初始化 tushare
-ts.set_token('c2c9a9f0b04de25d869b9bcbcb45764b1d7264f981a6ae4df14b0302')  # 替换为你的token
+ts.set_token('c**************************************************')  # 替换为你的token
 pro = ts.pro_api()
 
 # 设置年份范围（近3年）
