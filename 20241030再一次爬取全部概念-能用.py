@@ -1,7 +1,7 @@
 import tushare as ts
 import pandas as pd
 
-pro = ts.pro_api('c2c9a9f0b04de25d869b9bcbcb45764b1d7264f981a6ae4df14b0302')
+pro = ts.pro_api('c***************************************2')
 
 # 获取所有概念
 all_concepts = pro.concept()
