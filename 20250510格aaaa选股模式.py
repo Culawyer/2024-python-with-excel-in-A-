@@ -57,6 +57,8 @@ for i, row in stocks.iterrows():
 
 # 输出结果
 df_result = pd.DataFrame(results)
+
+# 评价：一个结果都没搞出来 摊手
 output_path = '格雷厄姆初选公司名单.xlsx'
 df_result.to_excel(output_path, index=False)
 print(f"✅ 完成：共找到 {len(df_result)} 家符合格雷厄姆标准的公司，结果已保存至：{output_path}")
