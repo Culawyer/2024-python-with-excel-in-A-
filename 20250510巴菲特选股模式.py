@@ -4,7 +4,7 @@ import time
 
 
 # 设置 Tushare Token
-ts.set_token('c2c9a9f0b04de25d869b9bcbcb45764b1d7264f981a6ae4df14b0302')  # ← 记得替换成你自己的 token
+ts.set_token('**************************************')  # ← 记得替换成你自己的 token
 
 pro = ts.pro_api()
 
